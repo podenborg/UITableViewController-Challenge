@@ -14,13 +14,13 @@
 		C93AB7CD196C9B640053EEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AB7CC196C9B640053EEBA /* main.m */; };
 		C93AB7D1196C9B640053EEBA /* POAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AB7D0196C9B640053EEBA /* POAppDelegate.m */; };
 		C93AB7D4196C9B650053EEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93AB7D2196C9B650053EEBA /* Main.storyboard */; };
-		C93AB7D7196C9B650053EEBA /* POViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AB7D6196C9B650053EEBA /* POViewController.m */; };
 		C93AB7D9196C9B650053EEBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93AB7D8196C9B650053EEBA /* Images.xcassets */; };
 		C93AB7E0196C9B650053EEBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AB7DF196C9B650053EEBA /* XCTest.framework */; };
 		C93AB7E1196C9B650053EEBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AB7C0196C9B640053EEBA /* Foundation.framework */; };
 		C93AB7E2196C9B650053EEBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AB7C4196C9B640053EEBA /* UIKit.framework */; };
 		C93AB7EA196C9B650053EEBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C93AB7E8196C9B650053EEBA /* InfoPlist.strings */; };
 		C93AB7EC196C9B650053EEBA /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AB7EB196C9B650053EEBA /* UITableViewController_ChallengeTests.m */; };
+		C93AB7F7196C9DD70053EEBA /* POTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AB7F6196C9DD70053EEBA /* POTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		C93AB7CF196C9B640053EEBA /* POAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POAppDelegate.h; sourceTree = "<group>"; };
 		C93AB7D0196C9B640053EEBA /* POAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POAppDelegate.m; sourceTree = "<group>"; };
 		C93AB7D3196C9B650053EEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C93AB7D5196C9B650053EEBA /* POViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POViewController.h; sourceTree = "<group>"; };
-		C93AB7D6196C9B650053EEBA /* POViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POViewController.m; sourceTree = "<group>"; };
 		C93AB7D8196C9B650053EEBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C93AB7DE196C9B650053EEBA /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93AB7DF196C9B650053EEBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C93AB7E7196C9B650053EEBA /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		C93AB7E9196C9B650053EEBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C93AB7EB196C9B650053EEBA /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		C93AB7F5196C9DD70053EEBA /* POTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POTableViewController.h; path = ../POTableViewController.h; sourceTree = "<group>"; };
+		C93AB7F6196C9DD70053EEBA /* POTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POTableViewController.m; path = ../POTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				C93AB7CF196C9B640053EEBA /* POAppDelegate.h */,
 				C93AB7D0196C9B640053EEBA /* POAppDelegate.m */,
 				C93AB7D2196C9B650053EEBA /* Main.storyboard */,
-				C93AB7D5196C9B650053EEBA /* POViewController.h */,
-				C93AB7D6196C9B650053EEBA /* POViewController.m */,
+				C93AB7F5196C9DD70053EEBA /* POTableViewController.h */,
+				C93AB7F6196C9DD70053EEBA /* POTableViewController.m */,
 				C93AB7D8196C9B650053EEBA /* Images.xcassets */,
 				C93AB7C7196C9B640053EEBA /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93AB7CD196C9B640053EEBA /* main.m in Sources */,
-				C93AB7D7196C9B650053EEBA /* POViewController.m in Sources */,
 				C93AB7D1196C9B640053EEBA /* POAppDelegate.m in Sources */,
+				C93AB7F7196C9DD70053EEBA /* POTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

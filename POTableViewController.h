@@ -1,5 +1,5 @@
 //
-//  POViewController.h
+//  POTableViewController.h
 //  UITableViewController Challenge
 //
 //  Created by Patrick Odenborg on 7/8/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface POViewController : UIViewController
+@interface POTableViewController : UITableViewController
 
 @end
